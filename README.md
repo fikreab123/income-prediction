@@ -1,17 +1,16 @@
-🎯 Featured Project: Income Prediction with Logistic Regression  
+# 🎯 Featured Project: Income Prediction with Logistic Regression  
 
-**Overview:**  
-I built a machine learning model to predict whether a person earns more than $50K per year using demographic and work-related data from the UCI Census Adult dataset.  
-The goal was to create a reliable model that classified income levels and explored which features had the most influence on predictions.
+## 🔎 Overview  
+This project builds a machine learning model to predict whether a person earns **more than $50K per year** using the UCI Census Adult dataset.  
+The focus was on achieving reliable classification while also exploring which demographic and work-related features most influence income levels.  
 
-**My Work:**  
-- Loaded and inspected the census dataset  
-- Cleaned data by removing missing values and dropping unnecessary columns  
-- Encoded categorical variables using one-hot encoding  
-- Scaled numeric variables for model training  
+## 🛠 My Work  
+- Cleaned and prepared the dataset (handled missing values, dropped irrelevant columns, standardized numeric features)  
+- Encoded categorical variables using one-hot encoding for model compatibility  
 - Split the dataset into training and testing sets  
-- Trained a logistic regression model with balanced class weights  
-- Evaluated model performance using accuracy and precision metrics
+- Trained a **logistic regression model** with balanced class weights to handle class imbalance  
+- Evaluated model performance using **accuracy and precision**  
+- Interpreted feature importance to understand the drivers of income prediction  
 
-**Tools:**  
-Python (Pandas, scikit-learn), Jupyter Notebooks
+## 📚 Tools Used  
+Python (Pandas, scikit-learn), Jupyter Notebooks  
